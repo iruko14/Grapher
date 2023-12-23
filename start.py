@@ -15,17 +15,22 @@ option_dict = {
 if feature_select in option_dict:
   # Get the corresponding option
   feature_pick = option_dict[feature_select]
+else:
+   feature_pick = 0
+   
+print("--------------------------------------------------")
+
+# Validating feature_pick
+if feature_pick != 0:
+    print(feature_pick, " is selected")
+else:
+    print("Wrong selection, try again")
 
 print("--------------------------------------------------")
 
-print(feature_pick, " is selected")
-
-print("--------------------------------------------------")
-
-
+# Printing option
 if feature_pick == "Population growth per country":
     rd.rdg_init()
 elif feature_pick == "API load":
     ap.get_categories()
-else:
-   print("wrong_selection, try again")
+
