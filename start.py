@@ -26,6 +26,6 @@ print("--------------------------------------------------")
 if feature_pick == "Population growth per country":
     rd.rdg_init()
 elif feature_pick == "API load":
-    ap.API_init()
+    ap.get_categories()
 else:
    print("wrong_selection, try again")
