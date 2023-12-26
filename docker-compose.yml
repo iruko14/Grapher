@@ -1,0 +1,6 @@
+services :
+  grapher.csv:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    
