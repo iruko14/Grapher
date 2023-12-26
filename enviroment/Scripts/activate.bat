@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\Carlos\Desktop\Platzi\Ruta Python\Curso de Python PIP y Entornos Virtuales\Grapher Project\Grapher\enviroment
+set VIRTUAL_ENV=C:\Users\mende_a6lu6xc\Desktop\Platzi\Ruta Python\Curso de Python PIP y Entornos Virtuales\Grapher project\Grapher\enviroment
 
 if not defined PROMPT set PROMPT=$P$G
 

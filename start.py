@@ -4,8 +4,8 @@ import API_request as ap
 # Input to select a feature of the app
 feature_select = input('''Welcome to Grapher! how i can help you?
 1. Population growth per country
-2. API load: 
-''')
+2. API load
+Introduce an option: ''')
 # Features list to request
 option_dict = {
     "1": "Population growth per country",
