@@ -13,3 +13,18 @@ pip3 install -r requirements.txt
 ```sh
 python3 main.py
 ```
+
+# Run docker
+
+```sh
+docker-compose build
+docker-compose up -d
+docker-compose ps
+docker-compose exec grapher.csv bash
+```
+
+# Stop docker
+
+```sh
+docker-compose down
+```
